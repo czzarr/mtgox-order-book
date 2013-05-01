@@ -42,7 +42,6 @@ MongoClient.connect("mongodb://localhost:27017/bitcoin-db", function(err, db) {
       }
       if (thing) {
         stuff.insert(thing, { w: 0 });
-        console.log('inserted thing', thing);
       }
     });
   }
